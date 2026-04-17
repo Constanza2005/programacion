@@ -1,9 +1,11 @@
 # Colecciones de DATOS
 
+
+
 # LISTAS => list
 # Es una colección ORDENADA y MUTABLE de datos de cualquier tipo
 
-print('Listas en Python')
+print('\nLISTAS')
 mi_primera_lista = ['Constanza Alarcon ',20,True]
 
 nombre_personal = input('Ingrese su nombre: ')
@@ -19,7 +21,9 @@ print(mi_primera_lista)
 
 print(dir(mi_primera_lista))
 
-# DICCIONARIOS dictionary => dict
+print('\nDICCIONARIO')
+
+# DICCIONARIOS dictionary => dict 
 # Es una colección ORDENADA y MUTABLE de pares de datos de cualquier tipo
 # los datos de un diccionario ocupan el doble de espacio en memoria
 # deben almacenar la CLAVE y el VALOR de cada dato
@@ -35,5 +39,27 @@ print( mi_primer_diccionario)
 print(dir(mi_primer_diccionario))
 
 
+# CONJUNTOS set
+# Es una coleccion DESORDENADA e INMUTABLE de datos de cualquier tipo
 
+print('\nCONJUNTOS')
+
+mi_primer_conjunto = {'dato 1' , 45 , False}
+print(type(mi_primer_conjunto))
+print(mi_primer_conjunto)
+mi_primer_conjunto.add(25)
+print(mi_primer_conjunto)
+
+# TUPLAS tuple
+# Es una coleccion de datos ORDENADA e INMUTABLE de datos de cualquier tipo
+
+print('\nTUPLAS')
+
+mi_primera_tupla = ('Constanza Alarcon', 20, True)
+print(type(mi_primera_tupla))
+print(mi_primera_tupla)
+print(mi_primera_tupla[0])
+
+# La tupla NO permite asignar un nuevo valor para los elementos, la siguiente asignacion es invalida
+# mi_primera_tupla[0] = nombre_personal
 
