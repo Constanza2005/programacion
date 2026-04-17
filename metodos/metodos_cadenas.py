@@ -1,8 +1,11 @@
 # Metodo para modificacion de cadenas de texto
+# Programa que ya existe para cambiar...
 
 nombre_completo_minusculas = 'constanza alarcon'
 nombre_completo_mayusculas = 'CONSTANZA ALARCON'
-rut_vale = 21
+rut_str = '21.975.012-9'
+camion_codigo = 'cami&oacute;n'
+cadena_espacios = '           vale       '
 
 loren_ipsum = '''Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
@@ -43,4 +46,26 @@ print(nombre_split)
 nombre_split = nombre_completo_minusculas.split('o')
 print(nombre_split)
 
-rut_split = 
+rut_split = rut_str.split('-')
+print(rut_split)
+
+# EL metodo REPLACE modifica una parte de la cadena de texto especificada por otra definida
+# REPLACE recibe 2 argumentos, el primero es el texto a buscar y el segundo el texto que lo reemplazará
+nombre_modificado = nombre_completo_mayusculas.replace('LARCON','ka')
+print(nombre_modificado)
+
+nombre_modificado_minusculas = nombre_completo_minusculas.replace('constanza','nonii')
+print(nombre_modificado_minusculas)
+
+modificar_texto_tilde = camion_codigo.replace('&oacute;','ó')
+print(modificar_texto_tilde)
+
+# El método STRIP (TRIMM en la mayoría de los lenguajes) 
+# elimina espacios en blanco al principio y al final de una cadena de texto
+print(cadena_espacios)
+print(len(cadena_espacios))
+
+cadena_modificada = cadena_espacios.strip()
+print(cadena_modificada)
+print(len(cadena_modificada))
+
