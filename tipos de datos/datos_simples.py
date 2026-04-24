@@ -1,18 +1,49 @@
-# tipo de datos en python
+# Tipos de datos en Python
 
-# con el simbolo # escribo comentarios que no se ejecutan en el codigo
+# Con el símbolo # escribo comentarios que no se ejecutan con el código
 
-# tipo de dato STRING str
-print("que")
-# tipo de dato INTEGER int
-print(64)
-# tipo de dato FLOATING float
-print(2.5)
-# tipo de dato BOOLEAN bool (o de logica)
-print(False)
+variable_texto = 'Buen día queridos estudiantes'
 
-print(type("que"))
-print(type(64))
-print(type(2.5))
-print(type(False))
+variable_texto_multiple_lineas = '''
+esto es un texto
+en múltiples líneas
+'''
+variable_texto_multiple_lineas = """
+esto es un texto
+en múltiples líneas
+"""
+
+variable_entero = 25
+variable_decimal = 2.5
+variable_booleana = True
+
+# Tipo de dato STRING str
+print(variable_texto)
+
+# Tipo de dato INTEGER int
+print(variable_entero)
+
+# Tipo de dato FLOATING float
+print(variable_decimal)
+
+# Tipo de dato BOOLEAN bool
+print(variable_booleana)
+
+print(type(variable_texto))
+print(type(variable_entero))
+print(type(variable_decimal))
+print(type(variable_booleana))
+
+print(dir(variable_texto))
+print(variable_texto.title())
+print(variable_texto.upper())
+print(variable_texto.lower())
+
+print(dir(variable_entero))
+print(variable_entero.is_integer())
+print(variable_decimal.is_integer())
+
+print(dir(variable_booleana))
+print(dir(variable_decimal))
+
 
