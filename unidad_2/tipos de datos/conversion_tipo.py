@@ -1,12 +1,12 @@
-nombre_personal = input("ingrese su nombre: ")
-saludo = "buen dia "
+nombre_personal = input('Ingrese su nombre: ')
+saludo = 'Buen día '
 print(type(nombre_personal))
 print(nombre_personal)
 
-#CONCATENACION de cadenas de texto
+# CONCATENACIÓN de cadenas de texto
 print(saludo + nombre_personal)
 
-str_numero_entero = input("ingrese un numero entero:")
+str_numero_entero = input('Ingrese un número entero: ')
 numero_entero = int(str_numero_entero)
 numero_decimal = float(str_numero_entero)
 print(type(numero_entero))
@@ -14,17 +14,15 @@ print(type(numero_decimal))
 print(numero_entero)
 print(numero_decimal)
 
-numero_uno = 11
-numero_dos = 9
+numero_uno = 25
+numero_dos = 50
 
-#La operacion + con 2 numeros, opera aritmeticamente sumandos y entregando el resultado
+# La operacion + con 2 números, opera aritméticamente sumándolos y entregando el resultado
 print(numero_uno + numero_dos)
-
-#La operacion + con 2 cadenas de texto, opera semanticamente concatenandolos y entregando el  string resultante
+# La operacion + con 2 cadenas de texto, opera semánticamente concatenándolos y entregando el string resultante
 print(saludo + str_numero_entero)
-
-#La operacion + con 2 tipos de datos distintos arroja ERROR
-#print(str_numero_entero + numero_dos)
+# La operación + con 2 tipos de datos distintos arroja ERROR
+# print(str_numero_entero + numero_dos)
 
 # Solicite al usuario que ingrese su nombre y edad y muéstrelos por pantalla con un saludo.
 
@@ -42,3 +40,16 @@ otro_booleano = bool(int_booleano)
 # print(booleano)
 # print(type(booleano))
 print(type(otro_booleano))
+
+# Validando el tipo de datos
+numero = 1
+if isinstance(numero,str):
+    print('ES UN TEXTO!!')
+elif isinstance(numero,bool):
+    print('ES UN BOOLEANO!!')
+elif isinstance(numero,int):
+    print('ES UN ENTERO!!')
+elif isinstance(numero,float):
+    print('ES UN DECIMAL!!')
+else:
+    print('NO TENGO IDEA DE LO QUE ES!!')

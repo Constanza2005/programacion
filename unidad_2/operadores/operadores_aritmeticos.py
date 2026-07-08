@@ -1,10 +1,10 @@
-# Operadores ARITMETICOS
+# Operadores ARITMÉTICOS
 
 numero_1 = 45
 numero_2 = 12
 numero_3 = 0
-cadena_1 = 'que'
-cadena_2 = 'so'
+cadena_1 = 'GG'
+cadena_2 = 'GGWP'
 
 # Operador SUMA +
 suma = numero_1 + numero_2
@@ -15,25 +15,24 @@ print(type(suma))
 print()
 resta = numero_1 - numero_2
 print(resta)
-print(type(suma))
+print(type(resta))
 
-# Operador MULTIPLICACION *
+# Operador MULTIPLICACIÓN *
 print()
 multiplicacion = numero_1 * numero_2
 print(multiplicacion)
 print(type(multiplicacion))
 
-# Operador DIVISION /
+# Operador DIVISIÓN /
 print()
 division = numero_1 / numero_2
 print(division)
 print(type(division))
-
-# Una division con DENOMINADOR 0 NO esta definida, no se puede hacer
+# Una división con DENOMINADOR 0 NO está definida, no se puede hacer
 # siempre hay que revisar que el denominador sea distinto de 0
-# print(numero_1/numero_3)
+# print(numero_1 / numero_3)
 
-# Operador SUMA y MULTIPLICACION tambien se aplican a cadenas de texto
+# Operador SUMA y MULTIPLICACIÓN también se aplican sobre cadenas de texto
 print(cadena_1 + cadena_2)
 print(cadena_1 + str(numero_1))
 print(cadena_1 * numero_2)

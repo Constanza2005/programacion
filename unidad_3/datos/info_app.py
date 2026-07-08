@@ -1,0 +1,6 @@
+titulo_app = '-* Rifa-T *-'
+opcion_invalida = '¡Opción NO corresponde!'
+correo_invalido = '¡Correo ingresado NO corresponde!'
+correo_usado = '¡Correo ingresado YA se encuentra en uso!'
+telefono_invalido = '¡N° Teléfono ingresado NO corresponde!'
+contrasena_invalida = '¡Contraseña ingresada NO es segura, recuerde ingresar:\nAl menos 1 MAYÚSCULA,\nAl menos 1 MINÚSCULA,\nAl menos 1 DÍGITO y\nal menos 1 símbolo!'

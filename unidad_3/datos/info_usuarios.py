@@ -1,0 +1,7 @@
+listado_usuarios =[
+    {'id': 1, 'nombre': 'Usuario Prueba', 'rut': '12.345.678-5', 'nacionalidad': 'Chilena', 'telefono': '569 8765 4321', 'email': 'test@test.test', 'tipo_usuario': 'administrador', 'contrasena': b'$2b$12$VCtHPlKocO1dMN.qAEu70.im7XQXxTfnK2eOLWlc7pjQMWiaRpF1e', 'habilitado': True}, 
+    {'id': 2, 'nombre': 'Aquiles Baeza', 'rut': '12.345.678-5', 'nacionalidad': 'Peruana', 'telefono': '123456789', 'email': 'aquiles.baeza@aquiles.gg', 'tipo_usuario': 'administrador', 'contrasena': b'$2b$12$mW81UHlOrmTySVX7ZG3DeOGKWlXTrnZ7Zd.0UXxsXoz9N.bAQTKui', 'habilitado': True}, 
+    {'id': 3, 'nombre': 'Wendy Sulca', 'rut': '11.111.111-1', 'nacionalidad': 'Peruana', 'telefono': '987654321', 'email': 'wendy.sulca@wendita.gg', 'tipo_usuario': 'observador', 'contrasena': b'$2b$12$8QE/g2S62TFJQpt6N1CvcuHaAvdeMeWWUMgimXB0CyX8ug0B5tMkW', 'habilitado': True}, 
+    {'id': 4, 'nombre': 'Test', 'rut': '22.222.222-2', 'nacionalidad': 'Paragaya', 'telefono': '987654321', 'email': 'test.test@test.test', 'tipo_usuario': 'observador', 'contrasena': b'$2b$12$8B1pBMtSIqXzExe862c39O59tRE29d3rFFhZzLPQIDzfyKuLX7m/S', 'habilitado': True}, 
+    {'id': 5, 'nombre': 'Usuario Bloqueado', 'rut': '99.999.999-9', 'nacionalidad': 'Mejicana', 'telefono': '987654321', 'email': 'usuario.bloqueado@usuario.gg', 'tipo_usuario': 'observador', 'contrasena': b'$2b$12$v7VoNhbLfPf2mUXEQLlQPO.dzGs4wRlEOWu6R6anOHnaSoZHs8X9K', 'habilitado': False}
+]

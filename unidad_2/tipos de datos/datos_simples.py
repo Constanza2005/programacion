@@ -3,7 +3,6 @@
 # Con el símbolo # escribo comentarios que no se ejecutan con el código
 
 variable_texto = 'Buen día queridos estudiantes'
-
 variable_texto_multiple_lineas = '''
 esto es un texto
 en múltiples líneas
@@ -45,5 +44,3 @@ print(variable_decimal.is_integer())
 
 print(dir(variable_booleana))
 print(dir(variable_decimal))
-
-

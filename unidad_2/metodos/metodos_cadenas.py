@@ -1,60 +1,67 @@
-# Metodo para modificacion de cadenas de texto
-# Programa que ya existe para cambiar...
+# Métodos para modificación de cadenas de texto
 
-nombre_completo_minusculas = 'constanza alarcon'
-nombre_completo_mayusculas = 'CONSTANZA ALARCON'
-rut_str = '21.975.012-9'
+nombre_completo_minusculas = 'erick bailey'
+nombre_completo_mayusculas = 'ERICK BAILEY'
+rut_str = '12.824.290-2'
 camion_codigo = 'cami&oacute;n'
-cadena_espacios = '           vale       '
+cadena_espacios = '     esta es mi cadena de texto      '
 
-loren_ipsum = '''Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-It has survived not only five centuries, but also the leap into electronic typesetting, 
-remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
-sheets containing Lorem Ipsum passages, and more recently with desktop publishing software 
-like Aldus PageMaker including versions of Lorem Ipsum.
+loren_ipsum = '''Lorem ipsum dolor sit amet, 
+consectetur adipiscing elit. 
+Donec quis ipsum porttitor, 
+rutrum tortor quis, 
+rhoncus dui. 
+Mauris sit amet lectus at nibh fermentum mollis. 
+Proin malesuada justo vel sagittis lacinia. 
+In auctor vel tortor nec egestas. 
+In ac pretium leo. 
+Aenean feugiat vulputate augue ac pellentesque. 
+Fusce viverra et nulla quis eleifend. 
+Suspendisse aliquam venenatis nisl quis efficitur. 
+Quisque luctus, 
+dolor a aliquet varius, 
+ex risus cursus orci, 
+in convallis purus nisi vel ante.
 '''
 
-# Print(dir(nombre_completo))
+# print(dir(nombre_completo))
 print(nombre_completo_minusculas)
-
-# El metodo CAPITALIZE deja en mayusculas la primera linea del texto
+# El método CAPITALIZE deja en mayúscula la primera letra del texto
 print(nombre_completo_minusculas.capitalize())
 # print(loren_ipsum.capitalize())
 
-# El metodo LOWER deja todos los caracteres en minusculas
+# El método LOWER deja todos los caracteres en minúsculas
 print(nombre_completo_mayusculas.lower())
 
-# El metodo UPPER deja todos caracteres en mayusculas
+# El método UPPER deja todos los caracteres en mayúsculas
 print(nombre_completo_minusculas.upper())
 
-# El metodo TITLE transforms la cadena en titulo, la primera letra de cada palabra en mayusculas
+# El método TITLE transforma la cadena en título, la primera letra de cada palabra en mayúsculas
 print(nombre_completo_minusculas.title())
 # print(loren_ipsum.title())
 
-# El metodo LEN (length, largo = tamaño) permite conocer la cantidad de caracteres em un string
+# El método LEN (length, largo = tamaño) permite conocer la cantidad de caracteres de un string
 print(len(nombre_completo_minusculas))
 print(len(loren_ipsum))
 
-# El metodo SPLIT permite cortar una cadena de caracteres en el caracter indicado
-# Si no se entrega ningun argumento al metodo split, se dividira la caddena en los espacios
+# El método SPLIT permite cortar una cadena de caracteres en el caracter indicado
+# Si no se entrega ningún argumento al método split, se dividirá la cadena en los espacios
 nombre_split = nombre_completo_minusculas.split()
 print(nombre_split)
 
-# Si se entrega un argumento al metodo split, se dividira la cadena en el caracter indicado
-nombre_split = nombre_completo_minusculas.split('o')
+# Si se entrega un argumento al método split, se dividirá la cadena en el caracter indicado
+nombre_split = nombre_completo_minusculas.split('i')
 print(nombre_split)
 
 rut_split = rut_str.split('-')
 print(rut_split)
 
-# EL metodo REPLACE modifica una parte de la cadena de texto especificada por otra definida
+# El método REPLACE modifica una parte de la cadena de texto especificada por otra definida
 # REPLACE recibe 2 argumentos, el primero es el texto a buscar y el segundo el texto que lo reemplazará
-nombre_modificado = nombre_completo_mayusculas.replace('LARCON','ka')
+nombre_modificado = nombre_completo_mayusculas.replace('RICK','gg')
 print(nombre_modificado)
 
-nombre_modificado_minusculas = nombre_completo_minusculas.replace('constanza','nonii')
+nombre_modificado_minusculas = nombre_completo_minusculas.replace('erick','Torch')
 print(nombre_modificado_minusculas)
 
 modificar_texto_tilde = camion_codigo.replace('&oacute;','ó')
@@ -64,8 +71,6 @@ print(modificar_texto_tilde)
 # elimina espacios en blanco al principio y al final de una cadena de texto
 print(cadena_espacios)
 print(len(cadena_espacios))
-
 cadena_modificada = cadena_espacios.strip()
 print(cadena_modificada)
 print(len(cadena_modificada))
-
